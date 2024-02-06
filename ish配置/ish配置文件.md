@@ -18,6 +18,10 @@ sed 命令无法起作用，仓库文件没有变化
 
 step 1、手动配置清华园
 vim /etc/apk/repositories  
+https://mirrors.ustc.edu.cn/alpine/v3.5/main
+https://mirrors.ustc.edu.cn/alpine/v3.5/community
+把这两个网址添加进去，原来的源注释掉
+
 
 step 2、删掉ish目录
 rm -r /ish
