@@ -1,0 +1,16 @@
+
+
+
+把iPad挂载到/mnt/ipad目录下
+mount -t ios-unsafe . /mnt/ipad
+
+
+卸载iPad
+cd
+
+umount /mnt/ipad
+
+
+
+
+
